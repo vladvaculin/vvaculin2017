@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15DF9CA48B4CDBC61D34CCDFBC7353ED /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C302BBC2833552C8667BDE4FC34F0C68 /* ReplaceMe.swift */; };
+		1F737A516333D6E1BC7844831AF0B9FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		32931170E90CF7A71EE6E90175AF6416 /* vvaculin2017-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C0E2537AE678E8D2CD161107DE66EA2 /* vvaculin2017-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48A6B2FF35663DDB46DCF44ECD60476E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7AEB313907B98A7277CF0B0B5522E8B2 /* vvaculin2017-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2608C4D653DC9D7CE38210012F6CC71E /* vvaculin2017-dummy.m */; };
+		7FC7F4D4F492945546CA700C6DF663CD /* Pods-vvaculin2017_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 314C4F5FC9240F5BCBF8E55ECD1544C8 /* Pods-vvaculin2017_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F3BD7F78BA9EC719910F283A9A49C9C /* Pods-vvaculin2017_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A43EC6E09C65BA02F6276193EEC9D96F /* Pods-vvaculin2017_Tests-dummy.m */; };
+		A8933C4AB20B603876087A67DDA2707E /* Pods-vvaculin2017_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 511DAE8DB1B67AE129DB3CE830AC068A /* Pods-vvaculin2017_Example-dummy.m */; };
+		E50D59AB3C497F58F3F69FC112A1DEBE /* Pods-vvaculin2017_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8DDE2888633B972490CF5F277886EF5 /* Pods-vvaculin2017_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF1D11D841B8808DF45F1193D12A0718 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		140E694DD7FFE74B0AFA9CED44B0C3A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 061971D5346DDEDAD8803EA77A181F72;
+			remoteInfo = vvaculin2017;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		204CE168EEEE286D3DE966990B9AA3F8 /* Pods-vvaculin2017_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-vvaculin2017_Example-resources.sh"; sourceTree = "<group>"; };
+		2608C4D653DC9D7CE38210012F6CC71E /* vvaculin2017-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "vvaculin2017-dummy.m"; sourceTree = "<group>"; };
+		2F0B3C067297245B6D0014FACB113CA0 /* Pods-vvaculin2017_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-vvaculin2017_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		314C4F5FC9240F5BCBF8E55ECD1544C8 /* Pods-vvaculin2017_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-vvaculin2017_Tests-umbrella.h"; sourceTree = "<group>"; };
+		32643E58C2A27C192CDAA319FE9B8ED7 /* Pods-vvaculin2017_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-vvaculin2017_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		37CE9767CD92182DED63D2092D4F8FE9 /* Pods-vvaculin2017_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-vvaculin2017_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		511DAE8DB1B67AE129DB3CE830AC068A /* Pods-vvaculin2017_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-vvaculin2017_Example-dummy.m"; sourceTree = "<group>"; };
+		564CD11B246A77C1A09467DC2908D689 /* Pods_vvaculin2017_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_vvaculin2017_Example.framework; path = "Pods-vvaculin2017_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F3408D0DA0947A29C7C1B8584B9A43 /* Pods-vvaculin2017_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-vvaculin2017_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7902C614780753F0BDF2949ABF34CF78 /* Pods-vvaculin2017_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-vvaculin2017_Example.release.xcconfig"; sourceTree = "<group>"; };
+		807DCFCAB98C59D5BCCF183F7A6AE4F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80F2DD8D4E29A2B94938070ECFF21B2B /* vvaculin2017.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = vvaculin2017.xcconfig; sourceTree = "<group>"; };
+		821550A7BB7B75AC3B410BAD4E104FDC /* Pods-vvaculin2017_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-vvaculin2017_Tests.modulemap"; sourceTree = "<group>"; };
+		93820D0382E25AA90D52375FC2C36861 /* vvaculin2017.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = vvaculin2017.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		995324C7C7930063441BA21FF140D30E /* Pods-vvaculin2017_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-vvaculin2017_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9C0E2537AE678E8D2CD161107DE66EA2 /* vvaculin2017-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "vvaculin2017-umbrella.h"; sourceTree = "<group>"; };
+		A43EC6E09C65BA02F6276193EEC9D96F /* Pods-vvaculin2017_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-vvaculin2017_Tests-dummy.m"; sourceTree = "<group>"; };
+		A67559295FD0D24568A72B80E1BCAF15 /* vvaculin2017.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = vvaculin2017.framework; path = vvaculin2017.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8DDE2888633B972490CF5F277886EF5 /* Pods-vvaculin2017_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-vvaculin2017_Example-umbrella.h"; sourceTree = "<group>"; };
+		AEF982378657753868F8A5C0009B3062 /* Pods-vvaculin2017_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-vvaculin2017_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B829E9B41958323242C672C8C34F373C /* Pods-vvaculin2017_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-vvaculin2017_Tests-resources.sh"; sourceTree = "<group>"; };
+		C302BBC2833552C8667BDE4FC34F0C68 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		D02D30BAE85638DCBB1F0E4F133B4F02 /* vvaculin2017-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "vvaculin2017-prefix.pch"; sourceTree = "<group>"; };
+		D2944F4125FCBDA37B0E8C5EBBB46978 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC148D3AB67A3AFBBDE1A0F3EB8FE95D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6AAE7C489D6D319B1458121EB35FEA3 /* Pods-vvaculin2017_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-vvaculin2017_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EE1B130483A0995311BF6BB28AA31759 /* Pods-vvaculin2017_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-vvaculin2017_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F22070ED6C62960AA4B2FC79A36D8384 /* Pods-vvaculin2017_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-vvaculin2017_Example.modulemap"; sourceTree = "<group>"; };
+		FF100D2786E84E9C1A74C214FB09A3F0 /* Pods-vvaculin2017_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-vvaculin2017_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FFA651A937DF5536A4FE73CAF9AA655D /* Pods_vvaculin2017_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_vvaculin2017_Tests.framework; path = "Pods-vvaculin2017_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67FC940DBB053DC8EE9B2F5813BADD0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A6B2FF35663DDB46DCF44ECD60476E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9337081375F26B5E7FA8CE39F4C353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1D11D841B8808DF45F1193D12A0718 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9EF69C45382A60E9EC723468D8A9DA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F737A516333D6E1BC7844831AF0B9FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C928F0DB07D2639C749E29F5FCC0F87 /* Pods-vvaculin2017_Example */ = {
+			isa = PBXGroup;
+			children = (
+				807DCFCAB98C59D5BCCF183F7A6AE4F3 /* Info.plist */,
+				F22070ED6C62960AA4B2FC79A36D8384 /* Pods-vvaculin2017_Example.modulemap */,
+				63F3408D0DA0947A29C7C1B8584B9A43 /* Pods-vvaculin2017_Example-acknowledgements.markdown */,
+				FF100D2786E84E9C1A74C214FB09A3F0 /* Pods-vvaculin2017_Example-acknowledgements.plist */,
+				511DAE8DB1B67AE129DB3CE830AC068A /* Pods-vvaculin2017_Example-dummy.m */,
+				E6AAE7C489D6D319B1458121EB35FEA3 /* Pods-vvaculin2017_Example-frameworks.sh */,
+				204CE168EEEE286D3DE966990B9AA3F8 /* Pods-vvaculin2017_Example-resources.sh */,
+				A8DDE2888633B972490CF5F277886EF5 /* Pods-vvaculin2017_Example-umbrella.h */,
+				2F0B3C067297245B6D0014FACB113CA0 /* Pods-vvaculin2017_Example.debug.xcconfig */,
+				7902C614780753F0BDF2949ABF34CF78 /* Pods-vvaculin2017_Example.release.xcconfig */,
+			);
+			name = "Pods-vvaculin2017_Example";
+			path = "Target Support Files/Pods-vvaculin2017_Example";
+			sourceTree = "<group>";
+		};
+		157AF4AD5DBC213BECAEDC255AAD2965 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C928F0DB07D2639C749E29F5FCC0F87 /* Pods-vvaculin2017_Example */,
+				970E347A03991D3EB7A353751547C0D7 /* Pods-vvaculin2017_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		406D97BA087E0C81B6F74910B17350B0 /* vvaculin2017 */ = {
+			isa = PBXGroup;
+			children = (
+				E79047C6EB4EDAC59E823DCB0810BF5C /* Support Files */,
+				C8627F302B152DC7619553B9A5DEDF1F /* vvaculin2017 */,
+			);
+			name = vvaculin2017;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F3B345C8CA72D68BA208136CCFABFD2C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D9D13161815B6E01C7679B6382114AD9 /* Products */,
+				157AF4AD5DBC213BECAEDC255AAD2965 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		970E347A03991D3EB7A353751547C0D7 /* Pods-vvaculin2017_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D2944F4125FCBDA37B0E8C5EBBB46978 /* Info.plist */,
+				821550A7BB7B75AC3B410BAD4E104FDC /* Pods-vvaculin2017_Tests.modulemap */,
+				32643E58C2A27C192CDAA319FE9B8ED7 /* Pods-vvaculin2017_Tests-acknowledgements.markdown */,
+				EE1B130483A0995311BF6BB28AA31759 /* Pods-vvaculin2017_Tests-acknowledgements.plist */,
+				A43EC6E09C65BA02F6276193EEC9D96F /* Pods-vvaculin2017_Tests-dummy.m */,
+				995324C7C7930063441BA21FF140D30E /* Pods-vvaculin2017_Tests-frameworks.sh */,
+				B829E9B41958323242C672C8C34F373C /* Pods-vvaculin2017_Tests-resources.sh */,
+				314C4F5FC9240F5BCBF8E55ECD1544C8 /* Pods-vvaculin2017_Tests-umbrella.h */,
+				37CE9767CD92182DED63D2092D4F8FE9 /* Pods-vvaculin2017_Tests.debug.xcconfig */,
+				AEF982378657753868F8A5C0009B3062 /* Pods-vvaculin2017_Tests.release.xcconfig */,
+			);
+			name = "Pods-vvaculin2017_Tests";
+			path = "Target Support Files/Pods-vvaculin2017_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF9543B4E70EBDAC1793F0768C2BBBF1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C302BBC2833552C8667BDE4FC34F0C68 /* ReplaceMe.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C8627F302B152DC7619553B9A5DEDF1F /* vvaculin2017 */ = {
+			isa = PBXGroup;
+			children = (
+				BF9543B4E70EBDAC1793F0768C2BBBF1 /* Classes */,
+			);
+			name = vvaculin2017;
+			path = vvaculin2017;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D9D13161815B6E01C7679B6382114AD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				564CD11B246A77C1A09467DC2908D689 /* Pods_vvaculin2017_Example.framework */,
+				FFA651A937DF5536A4FE73CAF9AA655D /* Pods_vvaculin2017_Tests.framework */,
+				A67559295FD0D24568A72B80E1BCAF15 /* vvaculin2017.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E79047C6EB4EDAC59E823DCB0810BF5C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC148D3AB67A3AFBBDE1A0F3EB8FE95D /* Info.plist */,
+				93820D0382E25AA90D52375FC2C36861 /* vvaculin2017.modulemap */,
+				80F2DD8D4E29A2B94938070ECFF21B2B /* vvaculin2017.xcconfig */,
+				2608C4D653DC9D7CE38210012F6CC71E /* vvaculin2017-dummy.m */,
+				D02D30BAE85638DCBB1F0E4F133B4F02 /* vvaculin2017-prefix.pch */,
+				9C0E2537AE678E8D2CD161107DE66EA2 /* vvaculin2017-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/vvaculin2017";
+			sourceTree = "<group>";
+		};
+		F3B345C8CA72D68BA208136CCFABFD2C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				406D97BA087E0C81B6F74910B17350B0 /* vvaculin2017 */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1814883B10FA80B3337CF4A0A3C3BBAA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32931170E90CF7A71EE6E90175AF6416 /* vvaculin2017-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6112303E49B718B07DCEE0E970317B4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E50D59AB3C497F58F3F69FC112A1DEBE /* Pods-vvaculin2017_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4293FB1F78D5FE5A627C5C4A5A2F1CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC7F4D4F492945546CA700C6DF663CD /* Pods-vvaculin2017_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		061971D5346DDEDAD8803EA77A181F72 /* vvaculin2017 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E42B8B388BFF2B6CA582183CBAACFD /* Build configuration list for PBXNativeTarget "vvaculin2017" */;
+			buildPhases = (
+				14B37827DE9611ECDB21B0FA3D739F5E /* Sources */,
+				67FC940DBB053DC8EE9B2F5813BADD0B /* Frameworks */,
+				1814883B10FA80B3337CF4A0A3C3BBAA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vvaculin2017;
+			productName = vvaculin2017;
+			productReference = A67559295FD0D24568A72B80E1BCAF15 /* vvaculin2017.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3915B42C11B2F86996E9B0B25FDEC69D /* Pods-vvaculin2017_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E18410488DC14A8ADC9E9AB6913A3F53 /* Build configuration list for PBXNativeTarget "Pods-vvaculin2017_Example" */;
+			buildPhases = (
+				845F34FA0721B0823C1E59187575CDB0 /* Sources */,
+				AD9337081375F26B5E7FA8CE39F4C353 /* Frameworks */,
+				6112303E49B718B07DCEE0E970317B4F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAF9C49E642D1F474B248B7E2F2DF519 /* PBXTargetDependency */,
+			);
+			name = "Pods-vvaculin2017_Example";
+			productName = "Pods-vvaculin2017_Example";
+			productReference = 564CD11B246A77C1A09467DC2908D689 /* Pods_vvaculin2017_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		97A935EA36F1DE28CF5A40FFDFEE4600 /* Pods-vvaculin2017_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3864AB24129017B09029F2A0E649BB15 /* Build configuration list for PBXNativeTarget "Pods-vvaculin2017_Tests" */;
+			buildPhases = (
+				EA326B5ABB57898E60CA16A8FE51D0DC /* Sources */,
+				B9EF69C45382A60E9EC723468D8A9DA6 /* Frameworks */,
+				E4293FB1F78D5FE5A627C5C4A5A2F1CD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-vvaculin2017_Tests";
+			productName = "Pods-vvaculin2017_Tests";
+			productReference = FFA651A937DF5536A4FE73CAF9AA655D /* Pods_vvaculin2017_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D9D13161815B6E01C7679B6382114AD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3915B42C11B2F86996E9B0B25FDEC69D /* Pods-vvaculin2017_Example */,
+				97A935EA36F1DE28CF5A40FFDFEE4600 /* Pods-vvaculin2017_Tests */,
+				061971D5346DDEDAD8803EA77A181F72 /* vvaculin2017 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14B37827DE9611ECDB21B0FA3D739F5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DF9CA48B4CDBC61D34CCDFBC7353ED /* ReplaceMe.swift in Sources */,
+				7AEB313907B98A7277CF0B0B5522E8B2 /* vvaculin2017-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845F34FA0721B0823C1E59187575CDB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8933C4AB20B603876087A67DDA2707E /* Pods-vvaculin2017_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA326B5ABB57898E60CA16A8FE51D0DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F3BD7F78BA9EC719910F283A9A49C9C /* Pods-vvaculin2017_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAF9C49E642D1F474B248B7E2F2DF519 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = vvaculin2017;
+			target = 061971D5346DDEDAD8803EA77A181F72 /* vvaculin2017 */;
+			targetProxy = 140E694DD7FFE74B0AFA9CED44B0C3A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4D74FA3D661DB63342D5678E9ACE1DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80F2DD8D4E29A2B94938070ECFF21B2B /* vvaculin2017.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/vvaculin2017/vvaculin2017-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/vvaculin2017/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/vvaculin2017/vvaculin2017.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = vvaculin2017;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		508170FEE74D9998E9D2A4DEC8764A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80F2DD8D4E29A2B94938070ECFF21B2B /* vvaculin2017.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/vvaculin2017/vvaculin2017-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/vvaculin2017/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/vvaculin2017/vvaculin2017.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = vvaculin2017;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		54D92E8984AAF7793E47149C72E757C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F0B3C067297245B6D0014FACB113CA0 /* Pods-vvaculin2017_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-vvaculin2017_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-vvaculin2017_Example/Pods-vvaculin2017_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_vvaculin2017_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DA37183AA57E31E49680EF4122BF208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEF982378657753868F8A5C0009B3062 /* Pods-vvaculin2017_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-vvaculin2017_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-vvaculin2017_Tests/Pods-vvaculin2017_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_vvaculin2017_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE78AB7EDFDF67061E456AE157F72DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7902C614780753F0BDF2949ABF34CF78 /* Pods-vvaculin2017_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-vvaculin2017_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-vvaculin2017_Example/Pods-vvaculin2017_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_vvaculin2017_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E249A54E2D210404B459FB10E1766739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37CE9767CD92182DED63D2092D4F8FE9 /* Pods-vvaculin2017_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-vvaculin2017_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-vvaculin2017_Tests/Pods-vvaculin2017_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_vvaculin2017_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E42B8B388BFF2B6CA582183CBAACFD /* Build configuration list for PBXNativeTarget "vvaculin2017" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				508170FEE74D9998E9D2A4DEC8764A5A /* Debug */,
+				4D74FA3D661DB63342D5678E9ACE1DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3864AB24129017B09029F2A0E649BB15 /* Build configuration list for PBXNativeTarget "Pods-vvaculin2017_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E249A54E2D210404B459FB10E1766739 /* Debug */,
+				8DA37183AA57E31E49680EF4122BF208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E18410488DC14A8ADC9E9AB6913A3F53 /* Build configuration list for PBXNativeTarget "Pods-vvaculin2017_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54D92E8984AAF7793E47149C72E757C5 /* Debug */,
+				CE78AB7EDFDF67061E456AE157F72DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

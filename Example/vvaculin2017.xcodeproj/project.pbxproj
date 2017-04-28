@@ -29,10 +29,10 @@
 
 /* Begin PBXFileReference section */
 		2B25CC0532ED4085E3563310 /* Pods-vvaculin2017_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vvaculin2017_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vvaculin2017_Example/Pods-vvaculin2017_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		37A99DDC06F6065FA8BDDEFB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		37A99DDC06F6065FA8BDDEFB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		40EDCE92A70107DE6E5A74B8 /* Pods_vvaculin2017_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vvaculin2017_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C4AC69211F9071E88B8BD6D /* Pods_vvaculin2017_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vvaculin2017_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F53CDAD94EFB7FA00D85C0B /* vvaculin2017.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = vvaculin2017.podspec; path = ../vvaculin2017.podspec; sourceTree = "<group>"; };
+		5F53CDAD94EFB7FA00D85C0B /* vvaculin2017.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = vvaculin2017.podspec; path = ../vvaculin2017.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* vvaculin2017_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vvaculin2017_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6E0513541D57F5291BF9355D /* Pods-vvaculin2017_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vvaculin2017_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-vvaculin2017_Example/Pods-vvaculin2017_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6FA0524FEBA4FD4222A0F063 /* Pods-vvaculin2017_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vvaculin2017_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-vvaculin2017_Tests/Pods-vvaculin2017_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9ED9E123181F13CC34BE9C7C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9ED9E123181F13CC34BE9C7C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AA546984FDCA6A6421605B1E /* Pods-vvaculin2017_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vvaculin2017_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vvaculin2017_Tests/Pods-vvaculin2017_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

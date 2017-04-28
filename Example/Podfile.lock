@@ -1,0 +1,16 @@
+PODS:
+  - vvaculin2017 (0.1.0)
+
+DEPENDENCIES:
+  - vvaculin2017 (from `../`)
+
+EXTERNAL SOURCES:
+  vvaculin2017:
+    :path: ../
+
+SPEC CHECKSUMS:
+  vvaculin2017: e594d3e5c5964923d0e94f59ef23665ae92fc11c
+
+PODFILE CHECKSUM: a4a243e00511c7295782a0b67ca3b8dc1fc43d45
+
+COCOAPODS: 1.2.1

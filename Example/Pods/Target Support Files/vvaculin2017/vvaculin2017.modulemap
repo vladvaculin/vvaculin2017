@@ -1,0 +1,6 @@
+framework module vvaculin2017 {
+  umbrella header "vvaculin2017-umbrella.h"
+
+  export *
+  module * { export * }
+}

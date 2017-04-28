@@ -1,0 +1,6 @@
+framework module Pods_vvaculin2017_Tests {
+  umbrella header "Pods-vvaculin2017_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "vvaculin2017",
+  "version": "0.1.0",
+  "summary": "Pool Swift 42 by Vvaculin.",
+  "description": "Very very powerful tool for swift (no!). Swift 42 is awesome",
+  "homepage": "https://github.com/vladvaculin/vvaculin2017",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Vlad Vaculin": "vladvaculin@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/vvaculin/vvaculin2017.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "vvaculin2017/Classes/**/*.swift",
+  "resource_bundles": {
+    "vvaculin2017": [
+      "vvaculin2017/Classes/*.*m*"
+    ]
+  },
+  "frameworks": "CoreData"
+}
